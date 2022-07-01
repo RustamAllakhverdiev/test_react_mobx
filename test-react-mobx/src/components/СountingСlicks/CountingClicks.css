@@ -1,0 +1,35 @@
+.counting-clicks-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.counting-clicks-wrapper__button {
+  width: 200px;
+  height: 75px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.counting-clicks-wrapper__button:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.counting-clicks-wrapper__button:active {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.counting-clicks-wrapper__counting {
+  font-size: 30px;
+  color: black;
+}
